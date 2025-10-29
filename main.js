@@ -15993,6 +15993,8 @@ Game.Launch=function()
 			str+='<a class="option neato" '+Game.clickStr+'="Game.gainLumps(10000000);">+10m lumps</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.gainLumps(100000000);">+100m lumps</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.gainLumps(1000000000);">+1b lumps</a>';
+			str+='<a class="option neato" '+Game.clickStr+'="Game.gainLumps(10000000000);">+10b lumps</a>';
+			str+='<a class="option neato" '+Game.clickStr+'="Game.gainLumps(100000000000);">+100b lumps</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.Lumpsearned=0;Game.recalculateGains=1;">Reset Lumps earned</a><br>';
 			str+='<div class="line"></div>';
 			str+='<a class="option neato" '+Game.clickStr+'="for (var i in Game.Objects){Game.Objects[i].level=0;Game.Objects[i].onMinigame=false;Game.Objects[i].refresh();}Game.recalculateGains=1;">Reset levels</a>';
